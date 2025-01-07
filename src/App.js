@@ -25,7 +25,7 @@ function App() {
       id: 2,
       videoIndex: 1,
       options: [
-        { message: "Play Video 3", start: 1, end: 40, nextVideo: 2, x: 70, y: 38 },
+        { message: "Play Video 3", start: 1, end: 40, nextVideo: 2, x: 70, y: 64 },
         { message: "Menu", start: 1, end: 40, nextVideo: 0, x: 7, y: 10, isMainMenu: true },
       ],
     },
@@ -42,6 +42,7 @@ function App() {
           y: 50,
           isMainMenu: false,
         },
+                { message: "Menu", start: 1, end: 40, nextVideo: 0, x: 7, y: 10, isMainMenu: true },
       ],
     },
     {
